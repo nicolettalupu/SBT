@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8AB361F2500E94300C09E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB361E2500E94300C09E77 /* AppDelegate.swift */; };
+		B8AB36212500E94300C09E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB36202500E94300C09E77 /* ViewController.swift */; };
+		B8AB36232500E94500C09E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8AB36222500E94500C09E77 /* Assets.xcassets */; };
+		B8AB36262500E94500C09E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AB36242500E94500C09E77 /* Main.storyboard */; };
+		B8AB36322500E94500C09E77 /* Security_Benchmarking_ToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB36312500E94500C09E77 /* Security_Benchmarking_ToolTests.swift */; };
+		B8AB363F25055CBB00C09E77 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB363E25055CBB00C09E77 /* StreamReader.swift */; };
+		B8AB3648250690BD00C09E77 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB3646250690BD00C09E77 /* ViewControllerB.swift */; };
+		B8AB3649250690BD00C09E77 /* ViewControllerB.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AB3647250690BD00C09E77 /* ViewControllerB.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8AB362E2500E94500C09E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AB36132500E94300C09E77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8AB361A2500E94300C09E77;
+			remoteInfo = "Security Benchmarking Tool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8AB361B2500E94300C09E77 /* Security Benchmarking Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Security Benchmarking Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AB361E2500E94300C09E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8AB36202500E94300C09E77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8AB36222500E94500C09E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8AB36252500E94500C09E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8AB36272500E94500C09E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8AB36282500E94500C09E77 /* Security_Benchmarking_Tool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Security_Benchmarking_Tool.entitlements; sourceTree = "<group>"; };
+		B8AB362D2500E94500C09E77 /* Security Benchmarking ToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Security Benchmarking ToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AB36312500E94500C09E77 /* Security_Benchmarking_ToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security_Benchmarking_ToolTests.swift; sourceTree = "<group>"; };
+		B8AB36332500E94500C09E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8AB363E25055CBB00C09E77 /* StreamReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		B8AB3646250690BD00C09E77 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		B8AB3647250690BD00C09E77 /* ViewControllerB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewControllerB.xib; sourceTree = "<group>"; };
+		B8AB364A2507985300C09E77 /* Security Benchmarking Tool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Security Benchmarking Tool-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8AB36182500E94300C09E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AB362A2500E94500C09E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8AB36122500E94300C09E77 = {
+			isa = PBXGroup;
+			children = (
+				B8AB361D2500E94300C09E77 /* Security Benchmarking Tool */,
+				B8AB36302500E94500C09E77 /* Security Benchmarking ToolTests */,
+				B8AB361C2500E94300C09E77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8AB361C2500E94300C09E77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8AB361B2500E94300C09E77 /* Security Benchmarking Tool.app */,
+				B8AB362D2500E94500C09E77 /* Security Benchmarking ToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8AB361D2500E94300C09E77 /* Security Benchmarking Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B8AB361E2500E94300C09E77 /* AppDelegate.swift */,
+				B8AB36202500E94300C09E77 /* ViewController.swift */,
+				B8AB3646250690BD00C09E77 /* ViewControllerB.swift */,
+				B8AB3647250690BD00C09E77 /* ViewControllerB.xib */,
+				B8AB363E25055CBB00C09E77 /* StreamReader.swift */,
+				B8AB36222500E94500C09E77 /* Assets.xcassets */,
+				B8AB36242500E94500C09E77 /* Main.storyboard */,
+				B8AB36272500E94500C09E77 /* Info.plist */,
+				B8AB36282500E94500C09E77 /* Security_Benchmarking_Tool.entitlements */,
+				B8AB364A2507985300C09E77 /* Security Benchmarking Tool-Bridging-Header.h */,
+			);
+			path = "Security Benchmarking Tool";
+			sourceTree = "<group>";
+		};
+		B8AB36302500E94500C09E77 /* Security Benchmarking ToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8AB36312500E94500C09E77 /* Security_Benchmarking_ToolTests.swift */,
+				B8AB36332500E94500C09E77 /* Info.plist */,
+			);
+			path = "Security Benchmarking ToolTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8AB361A2500E94300C09E77 /* Security Benchmarking Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8AB36362500E94500C09E77 /* Build configuration list for PBXNativeTarget "Security Benchmarking Tool" */;
+			buildPhases = (
+				B8AB36172500E94300C09E77 /* Sources */,
+				B8AB36182500E94300C09E77 /* Frameworks */,
+				B8AB36192500E94300C09E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Security Benchmarking Tool";
+			productName = "Security Benchmarking Tool";
+			productReference = B8AB361B2500E94300C09E77 /* Security Benchmarking Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8AB362C2500E94500C09E77 /* Security Benchmarking ToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8AB36392500E94500C09E77 /* Build configuration list for PBXNativeTarget "Security Benchmarking ToolTests" */;
+			buildPhases = (
+				B8AB36292500E94500C09E77 /* Sources */,
+				B8AB362A2500E94500C09E77 /* Frameworks */,
+				B8AB362B2500E94500C09E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8AB362F2500E94500C09E77 /* PBXTargetDependency */,
+			);
+			name = "Security Benchmarking ToolTests";
+			productName = "Security Benchmarking ToolTests";
+			productReference = B8AB362D2500E94500C09E77 /* Security Benchmarking ToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8AB36132500E94300C09E77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Victoria Belinschi";
+				TargetAttributes = {
+					B8AB361A2500E94300C09E77 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+					B8AB362C2500E94500C09E77 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B8AB361A2500E94300C09E77;
+					};
+				};
+			};
+			buildConfigurationList = B8AB36162500E94300C09E77 /* Build configuration list for PBXProject "Security Benchmarking Tool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8AB36122500E94300C09E77;
+			productRefGroup = B8AB361C2500E94300C09E77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8AB361A2500E94300C09E77 /* Security Benchmarking Tool */,
+				B8AB362C2500E94500C09E77 /* Security Benchmarking ToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8AB36192500E94300C09E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AB3649250690BD00C09E77 /* ViewControllerB.xib in Resources */,
+				B8AB36232500E94500C09E77 /* Assets.xcassets in Resources */,
+				B8AB36262500E94500C09E77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AB362B2500E94500C09E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8AB36172500E94300C09E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AB363F25055CBB00C09E77 /* StreamReader.swift in Sources */,
+				B8AB3648250690BD00C09E77 /* ViewControllerB.swift in Sources */,
+				B8AB36212500E94300C09E77 /* ViewController.swift in Sources */,
+				B8AB361F2500E94300C09E77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AB36292500E94500C09E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AB36322500E94500C09E77 /* Security_Benchmarking_ToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8AB362F2500E94500C09E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8AB361A2500E94300C09E77 /* Security Benchmarking Tool */;
+			targetProxy = B8AB362E2500E94500C09E77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8AB36242500E94500C09E77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8AB36252500E94500C09E77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8AB36342500E94500C09E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8AB36352500E94500C09E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B8AB36372500E94500C09E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Security Benchmarking Tool/Security_Benchmarking_Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9N46U6CY6A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Security Benchmarking Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "i.Security-Benchmarking-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Security Benchmarking Tool/Security Benchmarking Tool-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B8AB36382500E94500C09E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Security Benchmarking Tool/Security_Benchmarking_Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9N46U6CY6A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Security Benchmarking Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "i.Security-Benchmarking-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Security Benchmarking Tool/Security Benchmarking Tool-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B8AB363A2500E94500C09E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9N46U6CY6A;
+				INFOPLIST_FILE = "Security Benchmarking ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "i.Security-Benchmarking-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Security Benchmarking Tool.app/Contents/MacOS/Security Benchmarking Tool";
+			};
+			name = Debug;
+		};
+		B8AB363B2500E94500C09E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9N46U6CY6A;
+				INFOPLIST_FILE = "Security Benchmarking ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "i.Security-Benchmarking-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Security Benchmarking Tool.app/Contents/MacOS/Security Benchmarking Tool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8AB36162500E94300C09E77 /* Build configuration list for PBXProject "Security Benchmarking Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AB36342500E94500C09E77 /* Debug */,
+				B8AB36352500E94500C09E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8AB36362500E94500C09E77 /* Build configuration list for PBXNativeTarget "Security Benchmarking Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AB36372500E94500C09E77 /* Debug */,
+				B8AB36382500E94500C09E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8AB36392500E94500C09E77 /* Build configuration list for PBXNativeTarget "Security Benchmarking ToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AB363A2500E94500C09E77 /* Debug */,
+				B8AB363B2500E94500C09E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8AB36132500E94300C09E77 /* Project object */;
+}
