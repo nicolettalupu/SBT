@@ -1,3 +1,5 @@
 # SBT
-
-It is not finished yet because I am still figuring out which tool to use for this project. I have the nice interface, and the text is rea and stored in multiple strings, and I am now thinking of creating a DataBase for storing the data. Also, there are screenshots for the first window, but after you tap the Scan button,  an empty window pops up because I didn't manage yet to finish.
+The project is not finished yet, but there is a nice interface, and the text is read and stored in multiple strings. 
+There are screenshots for the first window, but after you tap the Scan button,  an empty window pops up because it is not finished.
+Team: Belinschi Victoria & Lupu Nicoleta
+      FAF-181
